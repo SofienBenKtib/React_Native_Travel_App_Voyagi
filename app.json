@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "voyagi",
+    "slug": "voyagi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookAutoInitEnabled": true,
+    "facebookAppId": "441585853571763",
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package":"com.sofien.voyagi",
+      "versionCode": 1,
+
+      "config": {
+        "googleSignIn": {
+          "apiKey":"708961680814-kfnfm73d6ijlcpjlqtbs6tiqod4j165m.apps.googleusercontent.com",
+          "certificateHash":"3C:2A:5B:29:C8:AA:FD:C7:1A:75:7D:2F:F4:94:41:B5:D4:08:41:D4"
+        }
+      } 
+      
+    }
+  }
+}
